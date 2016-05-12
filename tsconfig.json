@@ -10,6 +10,10 @@
       "rootDir": "src",
       "outDir": "build"
   },
+  "filesGlob": [
+      "src/**/*.ts",
+      "!node_modules/**"
+  ],
   "files": [
       "typings/main.d.ts"
   ],
